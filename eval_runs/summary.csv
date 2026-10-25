@@ -1,0 +1,3 @@
+﻿tag,samples,skipped,faithfulness,answer_relevancy,context_precision,context_recall,faq_hits,faq_contains_gt,faq_contains_gt_rate,faq_avg_similarity,faq_number_coverage_avg,faq_number_verifiable,layer_faq,layer_rag_context,layer_rag_direct,avg_latency_ms,avg_contexts,avg_context_chars,run,csv
+baseline,72,28,0.797,0.9294,0.8819,0.8981,,,,,,,,,,12500.7,1.83,1843.7,D:\Study\code6\intergrated_qa_system\eval_runs\baseline.json,D:\Study\code6\intergrated_qa_system\eval_runs\baseline_ragas.csv
+mix_smoke2,4,0,0.6,0.4846,1.0,0.75,1,1,1.0,0.3478,1.0,1,1,4,0,5491.9,2.0,1898.0,D:\Study\code6\intergrated_qa_system\eval_runs\mix_smoke2.json,D:\Study\code6\intergrated_qa_system\eval_runs\mix_smoke2_ragas.csv

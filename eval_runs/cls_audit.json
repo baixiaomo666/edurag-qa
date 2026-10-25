@@ -1,0 +1,672 @@
+{
+  "summary": {
+    "total": 120,
+    "专业咨询": 60,
+    "通用知识": 60,
+    "general_share": 0.5,
+    "general_questions": [
+      "考研和保研有什么区别？",
+      "学硕和专硕有什么区别？",
+      "考研英语一和英语二有什么区别？",
+      "考研数学一、数学二、数学三有什么区别？",
+      "考研一般什么时候报名？",
+      "考研初试一般考几门？",
+      "考研初试总分是多少？",
+      "什么是国家线？",
+      "什么是自划线院校？",
+      "考研A区和B区是什么意思？",
+      "什么是差额复试？",
+      "什么是考研调剂？",
+      "什么是推免？",
+      "应届生身份在找工作时有什么用？",
+      "考研可以跨专业报考吗？",
+      "什么是同等学力报考？",
+      "研究生复试需要体检吗？",
+      "考研报名需要准备哪些材料？",
+      "考研可以同时报考多个学校吗？",
+      "初试和复试哪个更重要？",
+      "研究生毕业一定要发表论文吗？",
+      "什么是硕博连读？",
+      "什么是直博？",
+      "非全日制研究生和全日制有什么区别？",
+      "读研期间可以出去实习吗？",
+      "考研失败还能参加秋招吗？",
+      "什么是秋招？",
+      "什么是春招？",
+      "暑期实习一般什么时候投递？",
+      "算法工程师需要掌握哪些技能？",
+      "后端开发工程师需要掌握哪些技能？",
+      "前端开发需要学什么？",
+      "测试开发工程师是做什么的？",
+      "运维工程师是做什么的？",
+      "产品经理需要具备什么能力？",
+      "报考公务员需要什么条件？",
+      "什么是选调生？",
+      "国企和互联网企业的工作有什么区别？",
+      "数据分析师需要掌握哪些技能？",
+      "读研究生对找工作帮助大吗？",
+      "你好",
+      "在吗？",
+      "你能做什么？",
+      "你是谁？",
+      "谢谢",
+      "再见",
+      "今天天气怎么样？",
+      "现在几点了？",
+      "今天星期几？",
+      "你会说英语吗？",
+      "北京大学计算机专业怎么样？",
+      "推荐几本考研数学辅导书",
+      "帮我写一篇考研英语作文",
+      "研究生考试难不难？",
+      "考研值得吗？",
+      "我是计算机专业的，该考研还是就业？",
+      "1加1等于多少？",
+      "讲个笑话",
+      "随便聊聊",
+      "系统怎么用？"
+    ]
+  },
+  "rows": [
+    {
+      "index": 0,
+      "question": "考研和保研有什么区别？",
+      "category": "通用知识"
+    },
+    {
+      "index": 1,
+      "question": "学硕和专硕有什么区别？",
+      "category": "通用知识"
+    },
+    {
+      "index": 2,
+      "question": "考研英语一和英语二有什么区别？",
+      "category": "通用知识"
+    },
+    {
+      "index": 3,
+      "question": "考研数学一、数学二、数学三有什么区别？",
+      "category": "通用知识"
+    },
+    {
+      "index": 4,
+      "question": "考研一般什么时候报名？",
+      "category": "通用知识"
+    },
+    {
+      "index": 5,
+      "question": "考研初试一般考几门？",
+      "category": "通用知识"
+    },
+    {
+      "index": 6,
+      "question": "考研初试总分是多少？",
+      "category": "通用知识"
+    },
+    {
+      "index": 7,
+      "question": "什么是国家线？",
+      "category": "通用知识"
+    },
+    {
+      "index": 8,
+      "question": "什么是自划线院校？",
+      "category": "通用知识"
+    },
+    {
+      "index": 9,
+      "question": "考研A区和B区是什么意思？",
+      "category": "通用知识"
+    },
+    {
+      "index": 10,
+      "question": "什么是差额复试？",
+      "category": "通用知识"
+    },
+    {
+      "index": 11,
+      "question": "什么是考研调剂？",
+      "category": "通用知识"
+    },
+    {
+      "index": 12,
+      "question": "什么是推免？",
+      "category": "通用知识"
+    },
+    {
+      "index": 13,
+      "question": "应届生身份在找工作时有什么用？",
+      "category": "通用知识"
+    },
+    {
+      "index": 14,
+      "question": "考研可以跨专业报考吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 15,
+      "question": "什么是同等学力报考？",
+      "category": "通用知识"
+    },
+    {
+      "index": 16,
+      "question": "研究生复试需要体检吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 17,
+      "question": "考研报名需要准备哪些材料？",
+      "category": "通用知识"
+    },
+    {
+      "index": 18,
+      "question": "考研可以同时报考多个学校吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 19,
+      "question": "初试和复试哪个更重要？",
+      "category": "通用知识"
+    },
+    {
+      "index": 20,
+      "question": "研究生毕业一定要发表论文吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 21,
+      "question": "什么是硕博连读？",
+      "category": "通用知识"
+    },
+    {
+      "index": 22,
+      "question": "什么是直博？",
+      "category": "通用知识"
+    },
+    {
+      "index": 23,
+      "question": "非全日制研究生和全日制有什么区别？",
+      "category": "通用知识"
+    },
+    {
+      "index": 24,
+      "question": "读研期间可以出去实习吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 25,
+      "question": "考研失败还能参加秋招吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 26,
+      "question": "什么是秋招？",
+      "category": "通用知识"
+    },
+    {
+      "index": 27,
+      "question": "什么是春招？",
+      "category": "通用知识"
+    },
+    {
+      "index": 28,
+      "question": "暑期实习一般什么时候投递？",
+      "category": "通用知识"
+    },
+    {
+      "index": 29,
+      "question": "算法工程师需要掌握哪些技能？",
+      "category": "通用知识"
+    },
+    {
+      "index": 30,
+      "question": "后端开发工程师需要掌握哪些技能？",
+      "category": "通用知识"
+    },
+    {
+      "index": 31,
+      "question": "前端开发需要学什么？",
+      "category": "通用知识"
+    },
+    {
+      "index": 32,
+      "question": "测试开发工程师是做什么的？",
+      "category": "通用知识"
+    },
+    {
+      "index": 33,
+      "question": "运维工程师是做什么的？",
+      "category": "通用知识"
+    },
+    {
+      "index": 34,
+      "question": "产品经理需要具备什么能力？",
+      "category": "通用知识"
+    },
+    {
+      "index": 35,
+      "question": "报考公务员需要什么条件？",
+      "category": "通用知识"
+    },
+    {
+      "index": 36,
+      "question": "什么是选调生？",
+      "category": "通用知识"
+    },
+    {
+      "index": 37,
+      "question": "国企和互联网企业的工作有什么区别？",
+      "category": "通用知识"
+    },
+    {
+      "index": 38,
+      "question": "数据分析师需要掌握哪些技能？",
+      "category": "通用知识"
+    },
+    {
+      "index": 39,
+      "question": "读研究生对找工作帮助大吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 40,
+      "question": "考研网上正式报名一般在几月？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 41,
+      "question": "考研初试一般安排在什么时候？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 42,
+      "question": "国家线一般在几月公布？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 43,
+      "question": "管理类联考专业初试总分是多少？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 44,
+      "question": "管理类联考包含哪两门科目？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 45,
+      "question": "考研A区包含哪些省份？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 46,
+      "question": "B区国家线和A区相比有什么区别？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 47,
+      "question": "34所自划线院校有什么特点？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 48,
+      "question": "为什么报考时要看统考招生名额？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 49,
+      "question": "考研复试的差额比例一般是多少？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 50,
+      "question": "复试成绩一般占总成绩的多少？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 51,
+      "question": "考研总成绩是怎么计算的？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 52,
+      "question": "学硕和专硕在读取博士方面有什么区别？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 53,
+      "question": "什么是少数民族骨干计划？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 54,
+      "question": "退役大学生士兵专项计划是什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 55,
+      "question": "考研复试一般包含哪些环节？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 56,
+      "question": "考研综合面试一般由几名导师组成？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 57,
+      "question": "复试需要准备哪些材料？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 58,
+      "question": "联系导师的邮件应该怎么写？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 59,
+      "question": "联系导师有哪些注意事项？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 60,
+      "question": "考研调剂需要满足哪些基本条件？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 61,
+      "question": "调剂系统可以同时填报几个志愿？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 62,
+      "question": "调剂志愿的锁定时间一般多久？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 63,
+      "question": "什么是待录取通知？确认后有什么影响？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 64,
+      "question": "408统考包含哪四门课程？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 65,
+      "question": "408统考中数据结构占多少分？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 66,
+      "question": "408统考中计算机网络占多少分？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 67,
+      "question": "计算机科学与技术学硕的专业代码是什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 68,
+      "question": "计算机技术专硕的专业代码是什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 69,
+      "question": "人工智能专硕的专业代码是什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 70,
+      "question": "计算机考研自命题专业课有哪些常见组合？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 71,
+      "question": "计算机考研自命题专业课的主要劣势是什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 72,
+      "question": "计算机学硕一般考数学几？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 73,
+      "question": "计算机类专业复试通常包含哪些内容？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 74,
+      "question": "计算机专硕的编程机试主要考查什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 75,
+      "question": "计算机类研究生有哪些常见研究方向？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 76,
+      "question": "选择计算机考研院校时应考虑哪些因素？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 77,
+      "question": "什么是报录比？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 78,
+      "question": "计算机考研基础阶段的重点是什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 79,
+      "question": "计算机考研冲刺阶段应该做什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 80,
+      "question": "青云大学的专业课考什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 81,
+      "question": "青云大学的复试比例和复试成绩占比是多少？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 82,
+      "question": "青云大学的复试是否包含上机测试？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 83,
+      "question": "东海理工大学的专业课考什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 84,
+      "question": "东海理工大学的复试比例和复试成绩占比是多少？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 85,
+      "question": "东海理工大学2025年统考录取多少人？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 86,
+      "question": "哪些岗位通常要求硕士及以上学历？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 87,
+      "question": "硕士起薪和本科相比有什么差异？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 88,
+      "question": "秋招一般是什么时间？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 89,
+      "question": "春招的岗位数量和秋招相比如何？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 90,
+      "question": "大型企业的实习转正通道是怎样的？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 91,
+      "question": "算法工程师岗位对学历和技能的要求是什么？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 92,
+      "question": "后端开发工程师需要掌握哪些技术？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 93,
+      "question": "测试开发工程师需要什么技能？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 94,
+      "question": "数据开发方向需要掌握哪些技术？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 95,
+      "question": "定向选调生一般面向哪些高校？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 96,
+      "question": "高校辅导员岗位一般要求什么学历？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 97,
+      "question": "国企的总部岗位和分行岗位在学历要求上有什么区别？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 98,
+      "question": "没有实习经历会影响求职吗？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 99,
+      "question": "非全日制研究生的就业认可度如何？",
+      "category": "专业咨询"
+    },
+    {
+      "index": 100,
+      "question": "你好",
+      "category": "通用知识"
+    },
+    {
+      "index": 101,
+      "question": "在吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 102,
+      "question": "你能做什么？",
+      "category": "通用知识"
+    },
+    {
+      "index": 103,
+      "question": "你是谁？",
+      "category": "通用知识"
+    },
+    {
+      "index": 104,
+      "question": "谢谢",
+      "category": "通用知识"
+    },
+    {
+      "index": 105,
+      "question": "再见",
+      "category": "通用知识"
+    },
+    {
+      "index": 106,
+      "question": "今天天气怎么样？",
+      "category": "通用知识"
+    },
+    {
+      "index": 107,
+      "question": "现在几点了？",
+      "category": "通用知识"
+    },
+    {
+      "index": 108,
+      "question": "今天星期几？",
+      "category": "通用知识"
+    },
+    {
+      "index": 109,
+      "question": "你会说英语吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 110,
+      "question": "北京大学计算机专业怎么样？",
+      "category": "通用知识"
+    },
+    {
+      "index": 111,
+      "question": "推荐几本考研数学辅导书",
+      "category": "通用知识"
+    },
+    {
+      "index": 112,
+      "question": "帮我写一篇考研英语作文",
+      "category": "通用知识"
+    },
+    {
+      "index": 113,
+      "question": "研究生考试难不难？",
+      "category": "通用知识"
+    },
+    {
+      "index": 114,
+      "question": "考研值得吗？",
+      "category": "通用知识"
+    },
+    {
+      "index": 115,
+      "question": "我是计算机专业的，该考研还是就业？",
+      "category": "通用知识"
+    },
+    {
+      "index": 116,
+      "question": "1加1等于多少？",
+      "category": "通用知识"
+    },
+    {
+      "index": 117,
+      "question": "讲个笑话",
+      "category": "通用知识"
+    },
+    {
+      "index": 118,
+      "question": "随便聊聊",
+      "category": "通用知识"
+    },
+    {
+      "index": 119,
+      "question": "系统怎么用？",
+      "category": "通用知识"
+    }
+  ]
+}

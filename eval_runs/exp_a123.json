@@ -1,0 +1,711 @@
+{
+  "calibrated_threshold": 0.68,
+  "questions": 100,
+  "subjects": {
+    "common": 40,
+    "kaoyan": 24,
+    "cs": 22,
+    "employment": 14
+  },
+  "a1": {
+    "pos_scores": [
+      0.9888765067499331,
+      0.9977399451031089,
+      0.9999997778168003,
+      0.9999997299067681,
+      0.9652015442282589,
+      0.9982959292188668,
+      0.926707014400249,
+      0.8891035762396643,
+      0.9960762523228058,
+      0.9987097940212089,
+      0.8179694174853156,
+      0.5855400431074365,
+      0.8686822529279087,
+      0.9999998000422763,
+      0.9877495007642565,
+      0.9842814425796419,
+      0.995743625187145,
+      0.9816452573186805,
+      0.9999648454393325,
+      0.9965652319832985,
+      0.9999994964496828,
+      0.9981872697258928,
+      0.8686822529279083,
+      0.9994658400465832,
+      0.9999954973209433,
+      0.9997627937642499,
+      0.4296777024065897,
+      0.7139553600371686,
+      0.9999632276307527,
+      0.9896834294011372,
+      0.9332587279118489,
+      0.9990607129099319,
+      0.9585461268632864,
+      0.9936896894527973,
+      0.9999991928900624,
+      0.9995610643520216,
+      0.7139553600371688,
+      0.9999857944540549,
+      0.9995311588460065,
+      0.9999990960727563,
+      0.9999315899891037,
+      0.9972391465547249,
+      0.9997016909313048,
+      0.9997537360654517,
+      0.9999965642588176,
+      0.9985177760107673,
+      0.9998694494463376,
+      0.9999948407802134,
+      0.9999997776701951,
+      0.9692657246995742,
+      0.9973915410584929,
+      0.9950130512720381,
+      0.9999966676833797,
+      0.9998687633804519,
+      0.999999243257387,
+      0.9954826729283677,
+      0.9999998680922318,
+      0.966180813556396,
+      0.9999894052425157,
+      0.999382849315854,
+      0.9999675829387046,
+      0.9999996186015339,
+      0.9999939916331433,
+      0.9999997062624576,
+      0.9999962904833735,
+      0.9801043023283637,
+      0.9801043023283637,
+      0.999786364085028,
+      0.9853751895525426,
+      0.9853751895525426,
+      0.9995992918203115,
+      0.9989589373212704,
+      0.99996815119983,
+      0.9999836482908695,
+      0.9999993909819914,
+      0.999989860336212,
+      0.9999994737299113,
+      0.9932939652094724,
+      0.9997116700707787,
+      0.9999555278953065,
+      0.9988446107033216,
+      0.9929447062114007,
+      0.9999157896242352,
+      0.9989680958339362,
+      0.9929969100019606,
+      0.9999995310263733,
+      0.9999836663497644,
+      0.9999994534652656,
+      0.9788328676465355,
+      0.9999855801311299,
+      0.9999980940923626,
+      0.9975208671365599,
+      0.9562157755135998,
+      0.9750075142516048,
+      0.9996044907222179,
+      0.9999899911976721,
+      0.999857190652016,
+      0.9999984774489687,
+      0.9999994051014511,
+      0.9999393238713037
+    ],
+    "neg": [
+      {
+        "q": "今天天气怎么样？",
+        "score": 0.0,
+        "kind": "完全无关"
+      },
+      {
+        "q": "红烧肉怎么做最好吃？",
+        "score": 0.2135,
+        "kind": "完全无关"
+      },
+      {
+        "q": "帮我写一首关于春天的诗",
+        "score": 0.4129,
+        "kind": "完全无关"
+      },
+      {
+        "q": "推荐几部好看的电影",
+        "score": 0.0,
+        "kind": "完全无关"
+      },
+      {
+        "q": "怎么减肥比较健康？",
+        "score": 0.0,
+        "kind": "完全无关"
+      },
+      {
+        "q": "明天股市会涨吗？",
+        "score": 0.0,
+        "kind": "完全无关"
+      },
+      {
+        "q": "感冒了吃什么药好？",
+        "score": 0.0,
+        "kind": "完全无关"
+      },
+      {
+        "q": "北京到上海的高铁要多久？",
+        "score": 0.3323,
+        "kind": "完全无关"
+      },
+      {
+        "q": "公务员考试怎么报名？",
+        "score": 0.4672,
+        "kind": "其它考试"
+      },
+      {
+        "q": "高考总分是多少分？",
+        "score": 0.3611,
+        "kind": "其它考试"
+      },
+      {
+        "q": "教师资格证怎么考？",
+        "score": 0.1536,
+        "kind": "其它考试"
+      },
+      {
+        "q": "雅思考试报名费多少钱？",
+        "score": 0.0,
+        "kind": "其它考试"
+      },
+      {
+        "q": "注册会计师考试科目有哪些？",
+        "score": 0.1878,
+        "kind": "其它考试"
+      },
+      {
+        "q": "考研报名费是多少钱？",
+        "score": 0.0463,
+        "kind": "同领域题库外"
+      },
+      {
+        "q": "考研英语怎么复习？",
+        "score": 0.8462,
+        "kind": "同领域题库外"
+      },
+      {
+        "q": "复试应该穿什么衣服？",
+        "score": 0.1553,
+        "kind": "同领域题库外"
+      },
+      {
+        "q": "怎么联系导师比较合适？",
+        "score": 0.6457,
+        "kind": "同领域题库外"
+      },
+      {
+        "q": "考研备考需要多长时间？",
+        "score": 0.0255,
+        "kind": "同领域题库外"
+      },
+      {
+        "q": "数学二考哪些内容？",
+        "score": 0.1376,
+        "kind": "同领域题库外"
+      },
+      {
+        "q": "青云大学2025年统考录取多少人？",
+        "score": 0.9998,
+        "kind": "同模板不同实体"
+      },
+      {
+        "q": "青云大学计算机学硕2025年统考录取多少人？",
+        "score": 0.9998,
+        "kind": "同模板不同实体"
+      },
+      {
+        "q": "东海理工大学2026年统考录取多少人？",
+        "score": 1.0,
+        "kind": "同模板不同实体"
+      },
+      {
+        "q": "华清大学2025年统考录取多少人？",
+        "score": 1.0,
+        "kind": "同模板不同实体"
+      }
+    ],
+    "sweep": [
+      {
+        "threshold": 0.55,
+        "pos_hit": 99,
+        "pos_rate": 0.99,
+        "neg_hit": 6,
+        "neg_rate": 0.2609,
+        "separation": 0.7291
+      },
+      {
+        "threshold": 0.6,
+        "pos_hit": 98,
+        "pos_rate": 0.98,
+        "neg_hit": 6,
+        "neg_rate": 0.2609,
+        "separation": 0.7191
+      },
+      {
+        "threshold": 0.65,
+        "pos_hit": 98,
+        "pos_rate": 0.98,
+        "neg_hit": 5,
+        "neg_rate": 0.2174,
+        "separation": 0.7626
+      },
+      {
+        "threshold": 0.68,
+        "pos_hit": 98,
+        "pos_rate": 0.98,
+        "neg_hit": 5,
+        "neg_rate": 0.2174,
+        "separation": 0.7626
+      },
+      {
+        "threshold": 0.72,
+        "pos_hit": 96,
+        "pos_rate": 0.96,
+        "neg_hit": 5,
+        "neg_rate": 0.2174,
+        "separation": 0.7426
+      },
+      {
+        "threshold": 0.8,
+        "pos_hit": 96,
+        "pos_rate": 0.96,
+        "neg_hit": 5,
+        "neg_rate": 0.2174,
+        "separation": 0.7426
+      },
+      {
+        "threshold": 0.85,
+        "pos_hit": 95,
+        "pos_rate": 0.95,
+        "neg_hit": 4,
+        "neg_rate": 0.1739,
+        "separation": 0.7761
+      }
+    ]
+  },
+  "a2": {
+    "全库(None)": {
+      "self": 98,
+      "other": 0,
+      "miss": 2,
+      "cross_rate": 0.0,
+      "others": []
+    },
+    "common": {
+      "self": 40,
+      "other": 16,
+      "miss": 44,
+      "cross_rate": 0.2857,
+      "others": [
+        {
+          "query": "考研网上正式报名一般在几月？",
+          "query_subject": "kaoyan",
+          "hit": "考研一般什么时候报名？",
+          "hit_subject": "common",
+          "score": 0.808
+        },
+        {
+          "query": "国家线一般在几月公布？",
+          "query_subject": "kaoyan",
+          "hit": "什么是国家线？",
+          "hit_subject": "common",
+          "score": 0.9852
+        },
+        {
+          "query": "管理类联考专业初试总分是多少？",
+          "query_subject": "kaoyan",
+          "hit": "考研初试总分是多少？",
+          "hit_subject": "common",
+          "score": 0.967
+        },
+        {
+          "query": "考研A区包含哪些省份？",
+          "query_subject": "kaoyan",
+          "hit": "考研A区和B区是什么意思？",
+          "hit_subject": "common",
+          "score": 0.98
+        },
+        {
+          "query": "B区国家线和A区相比有什么区别？",
+          "query_subject": "kaoyan",
+          "hit": "考研A区和B区是什么意思？",
+          "hit_subject": "common",
+          "score": 0.9981
+        },
+        {
+          "query": "34所自划线院校有什么特点？",
+          "query_subject": "kaoyan",
+          "hit": "什么是自划线院校？",
+          "hit_subject": "common",
+          "score": 0.976
+        },
+        {
+          "query": "考研复试的差额比例一般是多少？",
+          "query_subject": "kaoyan",
+          "hit": "什么是差额复试？",
+          "hit_subject": "common",
+          "score": 0.9486
+        },
+        {
+          "query": "学硕和专硕在读取博士方面有什么区别？",
+          "query_subject": "kaoyan",
+          "hit": "学硕和专硕有什么区别？",
+          "hit_subject": "common",
+          "score": 0.7153
+        },
+        {
+          "query": "复试需要准备哪些材料？",
+          "query_subject": "kaoyan",
+          "hit": "考研报名需要准备哪些材料？",
+          "hit_subject": "common",
+          "score": 0.9794
+        },
+        {
+          "query": "算法工程师岗位对学历和技能的要求是什么？",
+          "query_subject": "employment",
+          "hit": "算法工程师需要掌握哪些技能？",
+          "hit_subject": "common",
+          "score": 0.9875
+        },
+        {
+          "query": "后端开发工程师需要掌握哪些技术？",
+          "query_subject": "employment",
+          "hit": "后端开发工程师需要掌握哪些技能？",
+          "hit_subject": "common",
+          "score": 0.9995
+        },
+        {
+          "query": "测试开发工程师需要什么技能？",
+          "query_subject": "employment",
+          "hit": "测试开发工程师是做什么的？",
+          "hit_subject": "common",
+          "score": 0.7223
+        },
+        {
+          "query": "数据开发方向需要掌握哪些技术？",
+          "query_subject": "employment",
+          "hit": "数据分析师需要掌握哪些技能？",
+          "hit_subject": "common",
+          "score": 0.8342
+        },
+        {
+          "query": "定向选调生一般面向哪些高校？",
+          "query_subject": "employment",
+          "hit": "什么是选调生？",
+          "hit_subject": "common",
+          "score": 0.7459
+        },
+        {
+          "query": "国企的总部岗位和分行岗位在学历要求上有什么区别？",
+          "query_subject": "employment",
+          "hit": "国企和互联网企业的工作有什么区别？",
+          "hit_subject": "common",
+          "score": 0.8621
+        },
+        {
+          "query": "非全日制研究生的就业认可度如何？",
+          "query_subject": "employment",
+          "hit": "非全日制研究生和全日制有什么区别？",
+          "hit_subject": "common",
+          "score": 0.8727
+        }
+      ]
+    },
+    "kaoyan": {
+      "self": 62,
+      "other": 9,
+      "miss": 29,
+      "cross_rate": 0.1268,
+      "others": [
+        {
+          "query": "408统考包含哪四门课程？",
+          "query_subject": "cs",
+          "hit": "管理类联考包含哪两门科目？",
+          "hit_subject": "kaoyan",
+          "score": 0.692
+        },
+        {
+          "query": "青云大学的复试比例和复试成绩占比是多少？",
+          "query_subject": "cs",
+          "hit": "复试成绩一般占总成绩的多少？",
+          "hit_subject": "kaoyan",
+          "score": 0.9168
+        },
+        {
+          "query": "东海理工大学的复试比例和复试成绩占比是多少？",
+          "query_subject": "cs",
+          "hit": "复试成绩一般占总成绩的多少？",
+          "hit_subject": "kaoyan",
+          "score": 0.9168
+        },
+        {
+          "query": "算法工程师岗位对学历和技能的要求是什么？",
+          "query_subject": "employment",
+          "hit": "算法工程师需要掌握哪些技能？",
+          "hit_subject": "common",
+          "score": 0.9863
+        },
+        {
+          "query": "后端开发工程师需要掌握哪些技术？",
+          "query_subject": "employment",
+          "hit": "后端开发工程师需要掌握哪些技能？",
+          "hit_subject": "common",
+          "score": 0.9995
+        },
+        {
+          "query": "测试开发工程师需要什么技能？",
+          "query_subject": "employment",
+          "hit": "测试开发工程师是做什么的？",
+          "hit_subject": "common",
+          "score": 0.7204
+        },
+        {
+          "query": "数据开发方向需要掌握哪些技术？",
+          "query_subject": "employment",
+          "hit": "数据分析师需要掌握哪些技能？",
+          "hit_subject": "common",
+          "score": 0.8225
+        },
+        {
+          "query": "国企的总部岗位和分行岗位在学历要求上有什么区别？",
+          "query_subject": "employment",
+          "hit": "国企和互联网企业的工作有什么区别？",
+          "hit_subject": "common",
+          "score": 0.8164
+        },
+        {
+          "query": "非全日制研究生的就业认可度如何？",
+          "query_subject": "employment",
+          "hit": "非全日制研究生和全日制有什么区别？",
+          "hit_subject": "common",
+          "score": 0.844
+        }
+      ]
+    },
+    "cs": {
+      "self": 61,
+      "other": 14,
+      "miss": 25,
+      "cross_rate": 0.1867,
+      "others": [
+        {
+          "query": "考研网上正式报名一般在几月？",
+          "query_subject": "kaoyan",
+          "hit": "考研一般什么时候报名？",
+          "hit_subject": "common",
+          "score": 0.7841
+        },
+        {
+          "query": "国家线一般在几月公布？",
+          "query_subject": "kaoyan",
+          "hit": "什么是国家线？",
+          "hit_subject": "common",
+          "score": 0.9782
+        },
+        {
+          "query": "管理类联考专业初试总分是多少？",
+          "query_subject": "kaoyan",
+          "hit": "考研初试总分是多少？",
+          "hit_subject": "common",
+          "score": 0.8864
+        },
+        {
+          "query": "考研A区包含哪些省份？",
+          "query_subject": "kaoyan",
+          "hit": "考研A区和B区是什么意思？",
+          "hit_subject": "common",
+          "score": 0.9617
+        },
+        {
+          "query": "B区国家线和A区相比有什么区别？",
+          "query_subject": "kaoyan",
+          "hit": "考研A区和B区是什么意思？",
+          "hit_subject": "common",
+          "score": 0.9981
+        },
+        {
+          "query": "34所自划线院校有什么特点？",
+          "query_subject": "kaoyan",
+          "hit": "什么是自划线院校？",
+          "hit_subject": "common",
+          "score": 0.9577
+        },
+        {
+          "query": "考研复试的差额比例一般是多少？",
+          "query_subject": "kaoyan",
+          "hit": "什么是差额复试？",
+          "hit_subject": "common",
+          "score": 0.8149
+        },
+        {
+          "query": "复试需要准备哪些材料？",
+          "query_subject": "kaoyan",
+          "hit": "考研报名需要准备哪些材料？",
+          "hit_subject": "common",
+          "score": 0.9653
+        },
+        {
+          "query": "算法工程师岗位对学历和技能的要求是什么？",
+          "query_subject": "employment",
+          "hit": "算法工程师需要掌握哪些技能？",
+          "hit_subject": "common",
+          "score": 0.9863
+        },
+        {
+          "query": "后端开发工程师需要掌握哪些技术？",
+          "query_subject": "employment",
+          "hit": "后端开发工程师需要掌握哪些技能？",
+          "hit_subject": "common",
+          "score": 0.9995
+        },
+        {
+          "query": "测试开发工程师需要什么技能？",
+          "query_subject": "employment",
+          "hit": "测试开发工程师是做什么的？",
+          "hit_subject": "common",
+          "score": 0.719
+        },
+        {
+          "query": "数据开发方向需要掌握哪些技术？",
+          "query_subject": "employment",
+          "hit": "数据分析师需要掌握哪些技能？",
+          "hit_subject": "common",
+          "score": 0.8029
+        },
+        {
+          "query": "国企的总部岗位和分行岗位在学历要求上有什么区别？",
+          "query_subject": "employment",
+          "hit": "国企和互联网企业的工作有什么区别？",
+          "hit_subject": "common",
+          "score": 0.8477
+        },
+        {
+          "query": "非全日制研究生的就业认可度如何？",
+          "query_subject": "employment",
+          "hit": "非全日制研究生和全日制有什么区别？",
+          "hit_subject": "common",
+          "score": 0.836
+        }
+      ]
+    },
+    "employment": {
+      "self": 53,
+      "other": 10,
+      "miss": 37,
+      "cross_rate": 0.1587,
+      "others": [
+        {
+          "query": "考研网上正式报名一般在几月？",
+          "query_subject": "kaoyan",
+          "hit": "考研一般什么时候报名？",
+          "hit_subject": "common",
+          "score": 0.7879
+        },
+        {
+          "query": "国家线一般在几月公布？",
+          "query_subject": "kaoyan",
+          "hit": "什么是国家线？",
+          "hit_subject": "common",
+          "score": 0.9776
+        },
+        {
+          "query": "管理类联考专业初试总分是多少？",
+          "query_subject": "kaoyan",
+          "hit": "考研初试总分是多少？",
+          "hit_subject": "common",
+          "score": 0.962
+        },
+        {
+          "query": "考研A区包含哪些省份？",
+          "query_subject": "kaoyan",
+          "hit": "考研A区和B区是什么意思？",
+          "hit_subject": "common",
+          "score": 0.9757
+        },
+        {
+          "query": "B区国家线和A区相比有什么区别？",
+          "query_subject": "kaoyan",
+          "hit": "考研A区和B区是什么意思？",
+          "hit_subject": "common",
+          "score": 0.998
+        },
+        {
+          "query": "34所自划线院校有什么特点？",
+          "query_subject": "kaoyan",
+          "hit": "什么是自划线院校？",
+          "hit_subject": "common",
+          "score": 0.9672
+        },
+        {
+          "query": "考研复试的差额比例一般是多少？",
+          "query_subject": "kaoyan",
+          "hit": "什么是差额复试？",
+          "hit_subject": "common",
+          "score": 0.9366
+        },
+        {
+          "query": "学硕和专硕在读取博士方面有什么区别？",
+          "query_subject": "kaoyan",
+          "hit": "学硕和专硕有什么区别？",
+          "hit_subject": "common",
+          "score": 0.689
+        },
+        {
+          "query": "复试需要准备哪些材料？",
+          "query_subject": "kaoyan",
+          "hit": "考研报名需要准备哪些材料？",
+          "hit_subject": "common",
+          "score": 0.9755
+        },
+        {
+          "query": "调剂志愿的锁定时间一般多久？",
+          "query_subject": "kaoyan",
+          "hit": "秋招一般是什么时间？",
+          "hit_subject": "employment",
+          "score": 0.7678
+        }
+      ]
+    }
+  },
+  "a3": {
+    "conflict_rows": [
+      {
+        "query": "青云大学2025年统考录取多少人？",
+        "score": 0.9998,
+        "matched": "东海理工大学2025年统考录取多少人？",
+        "off_hit": true,
+        "on_hit": false,
+        "detail": "校名不一致 ['青云大学'] vs ['东海理工大学']"
+      },
+      {
+        "query": "青云大学计算机学硕2025年统考录取多少人？",
+        "score": 0.9998,
+        "matched": "东海理工大学2025年统考录取多少人？",
+        "off_hit": true,
+        "on_hit": false,
+        "detail": "校名不一致 ['青云大学'] vs ['东海理工大学']"
+      },
+      {
+        "query": "东海理工大学2026年统考录取多少人？",
+        "score": 1.0,
+        "matched": "东海理工大学2025年统考录取多少人？",
+        "off_hit": true,
+        "on_hit": false,
+        "detail": "年份不一致 ['2026'] vs ['2025']"
+      },
+      {
+        "query": "华清大学2025年统考录取多少人？",
+        "score": 1.0,
+        "matched": "东海理工大学2025年统考录取多少人？",
+        "off_hit": true,
+        "on_hit": false,
+        "detail": "校名不一致 ['华清大学'] vs ['东海理工大学']"
+      }
+    ],
+    "blocked": 4,
+    "pos_killed": []
+  }
+}

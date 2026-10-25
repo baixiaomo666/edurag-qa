@@ -1,0 +1,2513 @@
+{
+  "sample_size": 20,
+  "samples_by_subject": {
+    "kaoyan": 8,
+    "cs": 7,
+    "employment": 5
+  },
+  "note": "recall_num 是 context_recall 的代理指标（参考答案数字命中率），只可能高估",
+  "groups": {
+    "B1 精排开（现状）": {
+      "env": {
+        "EXPERIMENT_RERANKER": "1"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 1786.0,
+        "avg_n_ctx": 1.75,
+        "latency_median_ms": 1487.0,
+        "latency_mean_ms": 1259.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 251.5
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2073,
+          "recall_num": 1.0,
+          "latency_ms": 1673.2
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 146.8
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1954,
+          "recall_num": 1.0,
+          "latency_ms": 1477.7
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": 1.0,
+          "latency_ms": 1513.7
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 1514.6
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": null,
+          "latency_ms": 2219.7
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 1502.7
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": null,
+          "latency_ms": 1486.3
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1477.8
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1488.0
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 146.9
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 140.1
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2228,
+          "recall_num": 1.0,
+          "latency_ms": 1479.5
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 194.8
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1877.4
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 2123.5
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 1488.7
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1482.8
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1496.8
+        }
+      ]
+    },
+    "B1 精排关": {
+      "env": {
+        "EXPERIMENT_RERANKER": "0"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 1786.0,
+        "avg_n_ctx": 1.75,
+        "latency_median_ms": 146.0,
+        "latency_mean_ms": 150.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 144.0
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2073,
+          "recall_num": 1.0,
+          "latency_ms": 134.7
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 140.7
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1954,
+          "recall_num": 1.0,
+          "latency_ms": 143.7
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": 1.0,
+          "latency_ms": 145.9
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 141.4
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": null,
+          "latency_ms": 159.5
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 142.4
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": null,
+          "latency_ms": 144.9
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 151.8
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 154.0
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 152.0
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 142.8
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2228,
+          "recall_num": 1.0,
+          "latency_ms": 145.4
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 182.4
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 163.0
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 156.1
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 145.8
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 150.8
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 164.5
+        }
+      ]
+    },
+    "B2 父块（现状）": {
+      "env": {
+        "EXPERIMENT_CTX": "parent"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 1786.0,
+        "avg_n_ctx": 1.75,
+        "latency_median_ms": 1484.0,
+        "latency_mean_ms": 1239.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 147.9
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2073,
+          "recall_num": 1.0,
+          "latency_ms": 1486.7
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 137.2
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1954,
+          "recall_num": 1.0,
+          "latency_ms": 1490.9
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": 1.0,
+          "latency_ms": 1484.2
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 1528.4
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": null,
+          "latency_ms": 2186.3
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 1503.2
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": null,
+          "latency_ms": 1473.7
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1479.3
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1474.5
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 141.1
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 145.1
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2228,
+          "recall_num": 1.0,
+          "latency_ms": 1529.1
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 149.0
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1660.0
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 2248.9
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 1553.5
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1483.4
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1481.2
+        }
+      ]
+    },
+    "B2 子块": {
+      "env": {
+        "EXPERIMENT_CTX": "child"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 516.0,
+        "avg_n_ctx": 2,
+        "latency_median_ms": 938.0,
+        "latency_mean_ms": 947.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 473,
+          "recall_num": 1.0,
+          "latency_ms": 965.2
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 472,
+          "recall_num": 1.0,
+          "latency_ms": 1034.2
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 473,
+          "recall_num": 1.0,
+          "latency_ms": 932.4
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 562,
+          "recall_num": 1.0,
+          "latency_ms": 1008.6
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 562,
+          "recall_num": 1.0,
+          "latency_ms": 1069.3
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 480,
+          "recall_num": 1.0,
+          "latency_ms": 874.5
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 480,
+          "recall_num": null,
+          "latency_ms": 867.1
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 433,
+          "recall_num": 1.0,
+          "latency_ms": 749.7
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 584,
+          "recall_num": null,
+          "latency_ms": 977.2
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 530,
+          "recall_num": 1.0,
+          "latency_ms": 919.1
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 530,
+          "recall_num": 1.0,
+          "latency_ms": 949.7
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 441,
+          "recall_num": 1.0,
+          "latency_ms": 967.9
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 441,
+          "recall_num": 1.0,
+          "latency_ms": 913.4
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 441,
+          "recall_num": 1.0,
+          "latency_ms": 937.1
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 540,
+          "recall_num": null,
+          "latency_ms": 975.9
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 596,
+          "recall_num": null,
+          "latency_ms": 939.2
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 596,
+          "recall_num": null,
+          "latency_ms": 1077.9
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 579,
+          "recall_num": 1.0,
+          "latency_ms": 923.4
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 579,
+          "recall_num": null,
+          "latency_ms": 934.0
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 522,
+          "recall_num": null,
+          "latency_ms": 924.1
+        }
+      ]
+    },
+    "B3 稠密0.7/稀疏1.0（现状）": {
+      "env": {
+        "DENSE_W": "0.7",
+        "SPARSE_W": "1.0"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 1786.0,
+        "avg_n_ctx": 1.75,
+        "latency_median_ms": 1484.0,
+        "latency_mean_ms": 1220.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 147.7
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2073,
+          "recall_num": 1.0,
+          "latency_ms": 1467.7
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 140.5
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1954,
+          "recall_num": 1.0,
+          "latency_ms": 1508.6
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": 1.0,
+          "latency_ms": 1498.5
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 1492.7
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": null,
+          "latency_ms": 2154.0
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 1480.4
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": null,
+          "latency_ms": 1479.6
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1540.8
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1488.5
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 144.3
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 146.3
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2228,
+          "recall_num": 1.0,
+          "latency_ms": 1486.6
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 150.0
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1460.4
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 2114.0
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 1524.8
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1503.0
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1481.0
+        }
+      ]
+    },
+    "B3 稠密1.0/稀疏0.7": {
+      "env": {
+        "DENSE_W": "1.0",
+        "SPARSE_W": "0.7"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 1786.0,
+        "avg_n_ctx": 1.75,
+        "latency_median_ms": 1485.0,
+        "latency_mean_ms": 1239.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 146.8
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2073,
+          "recall_num": 1.0,
+          "latency_ms": 1472.5
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 151.7
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1954,
+          "recall_num": 1.0,
+          "latency_ms": 1470.2
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": 1.0,
+          "latency_ms": 1484.3
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 1485.2
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": null,
+          "latency_ms": 2170.1
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 1494.9
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": null,
+          "latency_ms": 1486.5
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1478.1
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1517.4
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 171.9
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 151.9
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2228,
+          "recall_num": 1.0,
+          "latency_ms": 1475.4
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 152.2
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1514.5
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 2351.0
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 1557.6
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1536.6
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1512.5
+        }
+      ]
+    },
+    "B3 稠密0.5/稀疏0.5": {
+      "env": {
+        "DENSE_W": "0.5",
+        "SPARSE_W": "0.5"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 1786.0,
+        "avg_n_ctx": 1.75,
+        "latency_median_ms": 1496.0,
+        "latency_mean_ms": 1231.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 159.3
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2073,
+          "recall_num": 1.0,
+          "latency_ms": 1511.3
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 156.7
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1954,
+          "recall_num": 1.0,
+          "latency_ms": 1550.1
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": 1.0,
+          "latency_ms": 1517.3
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 1503.4
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": null,
+          "latency_ms": 2171.7
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 1492.1
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": null,
+          "latency_ms": 1476.1
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1498.9
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1523.8
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 158.0
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 147.2
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2228,
+          "recall_num": 1.0,
+          "latency_ms": 1486.8
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 179.9
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1470.9
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 2114.1
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 1476.8
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1507.4
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1527.7
+        }
+      ]
+    },
+    "B3 稠密0.3/稀疏1.0": {
+      "env": {
+        "DENSE_W": "0.3",
+        "SPARSE_W": "1.0"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 1786.0,
+        "avg_n_ctx": 1.75,
+        "latency_median_ms": 1485.0,
+        "latency_mean_ms": 1233.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 154.4
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2073,
+          "recall_num": 1.0,
+          "latency_ms": 1480.1
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 172.1
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1954,
+          "recall_num": 1.0,
+          "latency_ms": 1485.5
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": 1.0,
+          "latency_ms": 1487.5
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 1496.0
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": null,
+          "latency_ms": 2193.6
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 1516.3
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": null,
+          "latency_ms": 1481.2
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1481.0
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1489.2
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 258.3
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 156.0
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2228,
+          "recall_num": 1.0,
+          "latency_ms": 1485.1
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 147.6
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1479.8
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 2178.8
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 1488.4
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1538.3
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1491.6
+        }
+      ]
+    },
+    "B3 纯稠密1.0/0.0": {
+      "env": {
+        "DENSE_W": "1.0",
+        "SPARSE_W": "0.0"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 1786.0,
+        "avg_n_ctx": 1.75,
+        "latency_median_ms": 1524.0,
+        "latency_mean_ms": 1267.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 155.3
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2073,
+          "recall_num": 1.0,
+          "latency_ms": 1487.4
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 153.2
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1954,
+          "recall_num": 1.0,
+          "latency_ms": 1489.6
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": 1.0,
+          "latency_ms": 1557.4
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 1525.3
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": null,
+          "latency_ms": 2187.0
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 1508.0
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": null,
+          "latency_ms": 1486.2
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1523.3
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1581.4
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 183.6
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 181.1
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2228,
+          "recall_num": 1.0,
+          "latency_ms": 1633.4
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 161.8
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1591.1
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 2273.1
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 1544.2
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1529.7
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1584.7
+        }
+      ]
+    },
+    "B3 纯稀疏0.0/1.0": {
+      "env": {
+        "DENSE_W": "0.0",
+        "SPARSE_W": "1.0"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 1954.0,
+        "avg_n_ctx": 1.95,
+        "latency_median_ms": 1518.0,
+        "latency_mean_ms": 1463.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2261,
+          "recall_num": 1.0,
+          "latency_ms": 1534.1
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2182,
+          "recall_num": 1.0,
+          "latency_ms": 1518.8
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 1518.8
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2182,
+          "recall_num": 1.0,
+          "latency_ms": 1506.0
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2196,
+          "recall_num": 1.0,
+          "latency_ms": 1512.2
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": 1.0,
+          "latency_ms": 1593.7
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1523,
+          "recall_num": null,
+          "latency_ms": 1517.6
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 1537.7
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": null,
+          "latency_ms": 1500.5
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1517.3
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1512.9
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1501.7
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 1565.3
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 1921,
+          "recall_num": 1.0,
+          "latency_ms": 1505.2
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 173.7
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1550.6
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1506.8
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 1542.2
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1517.5
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 1624.4
+        }
+      ]
+    },
+    "B4 M=1（K=10）": {
+      "env": {
+        "EXPERIMENT_M": "1",
+        "EXPERIMENT_K": "10"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 0.9231,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 0.9231,
+        "avg_ctx_chars": 991.0,
+        "avg_n_ctx": 1,
+        "latency_median_ms": 3508.0,
+        "latency_mean_ms": 3524.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 3606.8
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 4152.4
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 3562.9
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 1114,
+          "recall_num": 1.0,
+          "latency_ms": 4967.9
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 958,
+          "recall_num": 0.0,
+          "latency_ms": 2764.1
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 408,
+          "recall_num": 1.0,
+          "latency_ms": 4412.6
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 408,
+          "recall_num": null,
+          "latency_ms": 4291.1
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 1,
+          "ctx_chars": 408,
+          "recall_num": 1.0,
+          "latency_ms": 3606.8
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 2827.7
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 3472.1
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 2255.3
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 958,
+          "recall_num": 1.0,
+          "latency_ms": 3492.8
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 2835.0
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": 1.0,
+          "latency_ms": 3541.8
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 1,
+          "ctx_chars": 1081,
+          "recall_num": null,
+          "latency_ms": 2787.8
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 1,
+          "ctx_chars": 1146,
+          "recall_num": null,
+          "latency_ms": 2835.1
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 1,
+          "ctx_chars": 1146,
+          "recall_num": null,
+          "latency_ms": 3493.3
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 1,
+          "ctx_chars": 1146,
+          "recall_num": 1.0,
+          "latency_ms": 3523.6
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 1,
+          "ctx_chars": 1146,
+          "recall_num": null,
+          "latency_ms": 4690.3
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 1,
+          "ctx_chars": 1146,
+          "recall_num": null,
+          "latency_ms": 3352.1
+        }
+      ]
+    },
+    "B4 M=2（K=10）": {
+      "env": {
+        "EXPERIMENT_M": "2",
+        "EXPERIMENT_K": "10"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 0.9231,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 0.9231,
+        "avg_ctx_chars": 2022.0,
+        "avg_n_ctx": 2,
+        "latency_median_ms": 3505.0,
+        "latency_mean_ms": 3477.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2261,
+          "recall_num": 1.0,
+          "latency_ms": 4438.0
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2191,
+          "recall_num": 1.0,
+          "latency_ms": 4223.4
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2208,
+          "recall_num": 1.0,
+          "latency_ms": 3404.5
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1954,
+          "recall_num": 1.0,
+          "latency_ms": 5001.0
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 0.0,
+          "latency_ms": 2777.9
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1502,
+          "recall_num": 1.0,
+          "latency_ms": 4121.8
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1502,
+          "recall_num": null,
+          "latency_ms": 4103.1
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 2,
+          "ctx_chars": 1367,
+          "recall_num": 1.0,
+          "latency_ms": 3595.4
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": null,
+          "latency_ms": 2838.8
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 3462.0
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 2214.1
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 3500.7
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 2755.2
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": 1.0,
+          "latency_ms": 3510.7
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 2,
+          "ctx_chars": 2040,
+          "recall_num": null,
+          "latency_ms": 2843.3
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 2782.5
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 3561.7
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": 1.0,
+          "latency_ms": 3510.2
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2223,
+          "recall_num": null,
+          "latency_ms": 4110.8
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 2,
+          "ctx_chars": 2240,
+          "recall_num": null,
+          "latency_ms": 2788.0
+        }
+      ]
+    },
+    "B4 M=3（K=10）": {
+      "env": {
+        "EXPERIMENT_M": "3",
+        "EXPERIMENT_K": "10"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 2988.0,
+        "avg_n_ctx": 3,
+        "latency_median_ms": 3667.0,
+        "latency_mean_ms": 3754.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 3,
+          "ctx_chars": 3338,
+          "recall_num": 1.0,
+          "latency_ms": 3490.7
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 3,
+          "ctx_chars": 3150,
+          "recall_num": 1.0,
+          "latency_ms": 4121.3
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 3,
+          "ctx_chars": 2617,
+          "recall_num": 1.0,
+          "latency_ms": 3690.8
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 3,
+          "ctx_chars": 2363,
+          "recall_num": 1.0,
+          "latency_ms": 5899.0
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 3,
+          "ctx_chars": 3155,
+          "recall_num": 1.0,
+          "latency_ms": 3455.4
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 3,
+          "ctx_chars": 2461,
+          "recall_num": 1.0,
+          "latency_ms": 4797.8
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 3,
+          "ctx_chars": 2617,
+          "recall_num": null,
+          "latency_ms": 4191.9
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 3,
+          "ctx_chars": 2435,
+          "recall_num": 1.0,
+          "latency_ms": 3656.3
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 3,
+          "ctx_chars": 3155,
+          "recall_num": null,
+          "latency_ms": 2867.3
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 3,
+          "ctx_chars": 2880,
+          "recall_num": 1.0,
+          "latency_ms": 3485.6
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 3,
+          "ctx_chars": 3155,
+          "recall_num": 1.0,
+          "latency_ms": 2295.5
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 3,
+          "ctx_chars": 3187,
+          "recall_num": 1.0,
+          "latency_ms": 3862.1
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 3,
+          "ctx_chars": 3187,
+          "recall_num": 1.0,
+          "latency_ms": 3048.1
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 3,
+          "ctx_chars": 3117,
+          "recall_num": 1.0,
+          "latency_ms": 3677.6
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 3,
+          "ctx_chars": 3108,
+          "recall_num": null,
+          "latency_ms": 2863.6
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 3,
+          "ctx_chars": 3063,
+          "recall_num": null,
+          "latency_ms": 3004.1
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 3,
+          "ctx_chars": 3063,
+          "recall_num": null,
+          "latency_ms": 3930.7
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 3,
+          "ctx_chars": 3338,
+          "recall_num": 1.0,
+          "latency_ms": 4415.6
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 3,
+          "ctx_chars": 3063,
+          "recall_num": null,
+          "latency_ms": 5041.5
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 3,
+          "ctx_chars": 3317,
+          "recall_num": null,
+          "latency_ms": 3291.3
+        }
+      ]
+    },
+    "B4 M=5（K=10）": {
+      "env": {
+        "EXPERIMENT_M": "5",
+        "EXPERIMENT_K": "10"
+      },
+      "summary": {
+        "n_questions": 20,
+        "n_verifiable": 13,
+        "recall_num_mean": 1.0,
+        "recall_num_median": 1.0,
+        "recall_num_full_rate": 1.0,
+        "avg_ctx_chars": 4648.0,
+        "avg_n_ctx": 4.6,
+        "latency_median_ms": 3466.0,
+        "latency_mean_ms": 3577.0
+      },
+      "rows": [
+        {
+          "question": "考研网上正式报名一般在几月？",
+          "subject": "kaoyan",
+          "n_ctx": 5,
+          "ctx_chars": 5391,
+          "recall_num": 1.0,
+          "latency_ms": 3456.7
+        },
+        {
+          "question": "考研初试一般安排在什么时候？",
+          "subject": "kaoyan",
+          "n_ctx": 5,
+          "ctx_chars": 5391,
+          "recall_num": 1.0,
+          "latency_ms": 4228.4
+        },
+        {
+          "question": "国家线一般在几月公布？",
+          "subject": "kaoyan",
+          "n_ctx": 5,
+          "ctx_chars": 4723,
+          "recall_num": 1.0,
+          "latency_ms": 3501.4
+        },
+        {
+          "question": "管理类联考专业初试总分是多少？",
+          "subject": "kaoyan",
+          "n_ctx": 5,
+          "ctx_chars": 4390,
+          "recall_num": 1.0,
+          "latency_ms": 5172.6
+        },
+        {
+          "question": "管理类联考包含哪两门科目？",
+          "subject": "kaoyan",
+          "n_ctx": 4,
+          "ctx_chars": 4232,
+          "recall_num": 1.0,
+          "latency_ms": 3066.4
+        },
+        {
+          "question": "考研A区包含哪些省份？",
+          "subject": "kaoyan",
+          "n_ctx": 5,
+          "ctx_chars": 4653,
+          "recall_num": 1.0,
+          "latency_ms": 4323.5
+        },
+        {
+          "question": "B区国家线和A区相比有什么区别？",
+          "subject": "kaoyan",
+          "n_ctx": 5,
+          "ctx_chars": 4525,
+          "recall_num": null,
+          "latency_ms": 4405.7
+        },
+        {
+          "question": "34所自划线院校有什么特点？",
+          "subject": "kaoyan",
+          "n_ctx": 5,
+          "ctx_chars": 4357,
+          "recall_num": 1.0,
+          "latency_ms": 3626.6
+        },
+        {
+          "question": "408统考包含哪四门课程？",
+          "subject": "cs",
+          "n_ctx": 4,
+          "ctx_chars": 4232,
+          "recall_num": null,
+          "latency_ms": 2811.1
+        },
+        {
+          "question": "408统考中数据结构占多少分？",
+          "subject": "cs",
+          "n_ctx": 5,
+          "ctx_chars": 5072,
+          "recall_num": 1.0,
+          "latency_ms": 3432.9
+        },
+        {
+          "question": "408统考中计算机网络占多少分？",
+          "subject": "cs",
+          "n_ctx": 3,
+          "ctx_chars": 3155,
+          "recall_num": 1.0,
+          "latency_ms": 2160.0
+        },
+        {
+          "question": "计算机科学与技术学硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 5,
+          "ctx_chars": 5332,
+          "recall_num": 1.0,
+          "latency_ms": 3559.2
+        },
+        {
+          "question": "计算机技术专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 4,
+          "ctx_chars": 4264,
+          "recall_num": 1.0,
+          "latency_ms": 2805.6
+        },
+        {
+          "question": "人工智能专硕的专业代码是什么？",
+          "subject": "cs",
+          "n_ctx": 5,
+          "ctx_chars": 5104,
+          "recall_num": 1.0,
+          "latency_ms": 3462.6
+        },
+        {
+          "question": "计算机考研自命题专业课有哪些常见组合？",
+          "subject": "cs",
+          "n_ctx": 4,
+          "ctx_chars": 4223,
+          "recall_num": null,
+          "latency_ms": 2755.6
+        },
+        {
+          "question": "哪些岗位通常要求硕士及以上学历？",
+          "subject": "employment",
+          "n_ctx": 4,
+          "ctx_chars": 4145,
+          "recall_num": null,
+          "latency_ms": 2779.5
+        },
+        {
+          "question": "硕士起薪和本科相比有什么差异？",
+          "subject": "employment",
+          "n_ctx": 5,
+          "ctx_chars": 5104,
+          "recall_num": null,
+          "latency_ms": 3468.9
+        },
+        {
+          "question": "秋招一般是什么时间？",
+          "subject": "employment",
+          "n_ctx": 5,
+          "ctx_chars": 5391,
+          "recall_num": 1.0,
+          "latency_ms": 3870.4
+        },
+        {
+          "question": "春招的岗位数量和秋招相比如何？",
+          "subject": "employment",
+          "n_ctx": 5,
+          "ctx_chars": 5116,
+          "recall_num": null,
+          "latency_ms": 5319.7
+        },
+        {
+          "question": "大型企业的实习转正通道是怎样的？",
+          "subject": "employment",
+          "n_ctx": 4,
+          "ctx_chars": 4157,
+          "recall_num": null,
+          "latency_ms": 3335.8
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1427 @@
+{
+  "policy": {
+    "rule": "subject in {kaoyan,cs,employment} -> 专业咨询; subject == common -> 通用知识",
+    "pro_subjects": [
+      "kaoyan",
+      "cs",
+      "employment"
+    ],
+    "vector_store_sources": {
+      "kaoyan": 22,
+      "cs": 10,
+      "employment": 9
+    }
+  },
+  "faq_total": 100,
+  "eval_total": 120,
+  "category_distribution": {
+    "通用知识": 60,
+    "专业咨询": 60
+  },
+  "corrected_existing": [
+    {
+      "index": 40,
+      "subject_name": "kaoyan",
+      "question": "考研网上正式报名一般在几月？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 41,
+      "subject_name": "kaoyan",
+      "question": "考研初试一般安排在什么时候？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 42,
+      "subject_name": "kaoyan",
+      "question": "国家线一般在几月公布？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 43,
+      "subject_name": "kaoyan",
+      "question": "管理类联考专业初试总分是多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 44,
+      "subject_name": "kaoyan",
+      "question": "管理类联考包含哪两门科目？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 45,
+      "subject_name": "kaoyan",
+      "question": "考研A区包含哪些省份？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 46,
+      "subject_name": "kaoyan",
+      "question": "B区国家线和A区相比有什么区别？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 47,
+      "subject_name": "kaoyan",
+      "question": "34所自划线院校有什么特点？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 48,
+      "subject_name": "kaoyan",
+      "question": "为什么报考时要看统考招生名额？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 49,
+      "subject_name": "kaoyan",
+      "question": "考研复试的差额比例一般是多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 50,
+      "subject_name": "kaoyan",
+      "question": "复试成绩一般占总成绩的多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 51,
+      "subject_name": "kaoyan",
+      "question": "考研总成绩是怎么计算的？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 52,
+      "subject_name": "kaoyan",
+      "question": "学硕和专硕在读取博士方面有什么区别？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 53,
+      "subject_name": "kaoyan",
+      "question": "什么是少数民族骨干计划？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 54,
+      "subject_name": "kaoyan",
+      "question": "退役大学生士兵专项计划是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 55,
+      "subject_name": "kaoyan",
+      "question": "考研复试一般包含哪些环节？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 56,
+      "subject_name": "kaoyan",
+      "question": "考研综合面试一般由几名导师组成？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 57,
+      "subject_name": "kaoyan",
+      "question": "复试需要准备哪些材料？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 58,
+      "subject_name": "kaoyan",
+      "question": "联系导师的邮件应该怎么写？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 59,
+      "subject_name": "kaoyan",
+      "question": "联系导师有哪些注意事项？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 60,
+      "subject_name": "kaoyan",
+      "question": "考研调剂需要满足哪些基本条件？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 61,
+      "subject_name": "kaoyan",
+      "question": "调剂系统可以同时填报几个志愿？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 62,
+      "subject_name": "kaoyan",
+      "question": "调剂志愿的锁定时间一般多久？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 63,
+      "subject_name": "kaoyan",
+      "question": "什么是待录取通知？确认后有什么影响？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 64,
+      "subject_name": "cs",
+      "question": "408统考包含哪四门课程？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 65,
+      "subject_name": "cs",
+      "question": "408统考中数据结构占多少分？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 66,
+      "subject_name": "cs",
+      "question": "408统考中计算机网络占多少分？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 67,
+      "subject_name": "cs",
+      "question": "计算机科学与技术学硕的专业代码是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 68,
+      "subject_name": "cs",
+      "question": "计算机技术专硕的专业代码是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 69,
+      "subject_name": "cs",
+      "question": "人工智能专硕的专业代码是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 70,
+      "subject_name": "cs",
+      "question": "计算机考研自命题专业课有哪些常见组合？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 71,
+      "subject_name": "cs",
+      "question": "计算机考研自命题专业课的主要劣势是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 72,
+      "subject_name": "cs",
+      "question": "计算机学硕一般考数学几？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 73,
+      "subject_name": "cs",
+      "question": "计算机类专业复试通常包含哪些内容？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 74,
+      "subject_name": "cs",
+      "question": "计算机专硕的编程机试主要考查什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 75,
+      "subject_name": "cs",
+      "question": "计算机类研究生有哪些常见研究方向？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 76,
+      "subject_name": "cs",
+      "question": "选择计算机考研院校时应考虑哪些因素？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 77,
+      "subject_name": "cs",
+      "question": "什么是报录比？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 78,
+      "subject_name": "cs",
+      "question": "计算机考研基础阶段的重点是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 79,
+      "subject_name": "cs",
+      "question": "计算机考研冲刺阶段应该做什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 80,
+      "subject_name": "cs",
+      "question": "青云大学的专业课考什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 81,
+      "subject_name": "cs",
+      "question": "青云大学的复试比例和复试成绩占比是多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 82,
+      "subject_name": "cs",
+      "question": "青云大学的复试是否包含上机测试？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 83,
+      "subject_name": "cs",
+      "question": "东海理工大学的专业课考什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 84,
+      "subject_name": "cs",
+      "question": "东海理工大学的复试比例和复试成绩占比是多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 85,
+      "subject_name": "cs",
+      "question": "东海理工大学2025年统考录取多少人？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 86,
+      "subject_name": "employment",
+      "question": "哪些岗位通常要求硕士及以上学历？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 87,
+      "subject_name": "employment",
+      "question": "硕士起薪和本科相比有什么差异？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 88,
+      "subject_name": "employment",
+      "question": "秋招一般是什么时间？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 89,
+      "subject_name": "employment",
+      "question": "春招的岗位数量和秋招相比如何？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 90,
+      "subject_name": "employment",
+      "question": "大型企业的实习转正通道是怎样的？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 91,
+      "subject_name": "employment",
+      "question": "算法工程师岗位对学历和技能的要求是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 92,
+      "subject_name": "employment",
+      "question": "后端开发工程师需要掌握哪些技术？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 93,
+      "subject_name": "employment",
+      "question": "测试开发工程师需要什么技能？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 94,
+      "subject_name": "employment",
+      "question": "数据开发方向需要掌握哪些技术？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 95,
+      "subject_name": "employment",
+      "question": "定向选调生一般面向哪些高校？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 96,
+      "subject_name": "employment",
+      "question": "高校辅导员岗位一般要求什么学历？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 97,
+      "subject_name": "employment",
+      "question": "国企的总部岗位和分行岗位在学历要求上有什么区别？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 98,
+      "subject_name": "employment",
+      "question": "没有实习经历会影响求职吗？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 99,
+      "subject_name": "employment",
+      "question": "非全日制研究生的就业认可度如何？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    }
+  ],
+  "new_general": [
+    {
+      "index": 100,
+      "subject_name": "common",
+      "question": "你好",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 101,
+      "subject_name": "common",
+      "question": "在吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 102,
+      "subject_name": "common",
+      "question": "你能做什么？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 103,
+      "subject_name": "common",
+      "question": "你是谁？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 104,
+      "subject_name": "common",
+      "question": "谢谢",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 105,
+      "subject_name": "common",
+      "question": "再见",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 106,
+      "subject_name": "common",
+      "question": "今天天气怎么样？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 107,
+      "subject_name": "common",
+      "question": "现在几点了？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 108,
+      "subject_name": "common",
+      "question": "今天星期几？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 109,
+      "subject_name": "common",
+      "question": "你会说英语吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 110,
+      "subject_name": "common",
+      "question": "北京大学计算机专业怎么样？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 111,
+      "subject_name": "common",
+      "question": "推荐几本考研数学辅导书",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 112,
+      "subject_name": "common",
+      "question": "帮我写一篇考研英语作文",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 113,
+      "subject_name": "common",
+      "question": "研究生考试难不难？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 114,
+      "subject_name": "common",
+      "question": "考研值得吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 115,
+      "subject_name": "common",
+      "question": "我是计算机专业的，该考研还是就业？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 116,
+      "subject_name": "common",
+      "question": "1加1等于多少？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 117,
+      "subject_name": "common",
+      "question": "讲个笑话",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 118,
+      "subject_name": "common",
+      "question": "随便聊聊",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 119,
+      "subject_name": "common",
+      "question": "系统怎么用？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    }
+  ],
+  "all_rows": [
+    {
+      "index": 0,
+      "subject_name": "common",
+      "question": "考研和保研有什么区别？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 1,
+      "subject_name": "common",
+      "question": "学硕和专硕有什么区别？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 2,
+      "subject_name": "common",
+      "question": "考研英语一和英语二有什么区别？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 3,
+      "subject_name": "common",
+      "question": "考研数学一、数学二、数学三有什么区别？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 4,
+      "subject_name": "common",
+      "question": "考研一般什么时候报名？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 5,
+      "subject_name": "common",
+      "question": "考研初试一般考几门？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 6,
+      "subject_name": "common",
+      "question": "考研初试总分是多少？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 7,
+      "subject_name": "common",
+      "question": "什么是国家线？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 8,
+      "subject_name": "common",
+      "question": "什么是自划线院校？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 9,
+      "subject_name": "common",
+      "question": "考研A区和B区是什么意思？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 10,
+      "subject_name": "common",
+      "question": "什么是差额复试？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 11,
+      "subject_name": "common",
+      "question": "什么是考研调剂？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 12,
+      "subject_name": "common",
+      "question": "什么是推免？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 13,
+      "subject_name": "common",
+      "question": "应届生身份在找工作时有什么用？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 14,
+      "subject_name": "common",
+      "question": "考研可以跨专业报考吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 15,
+      "subject_name": "common",
+      "question": "什么是同等学力报考？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 16,
+      "subject_name": "common",
+      "question": "研究生复试需要体检吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 17,
+      "subject_name": "common",
+      "question": "考研报名需要准备哪些材料？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 18,
+      "subject_name": "common",
+      "question": "考研可以同时报考多个学校吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 19,
+      "subject_name": "common",
+      "question": "初试和复试哪个更重要？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 20,
+      "subject_name": "common",
+      "question": "研究生毕业一定要发表论文吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 21,
+      "subject_name": "common",
+      "question": "什么是硕博连读？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 22,
+      "subject_name": "common",
+      "question": "什么是直博？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 23,
+      "subject_name": "common",
+      "question": "非全日制研究生和全日制有什么区别？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 24,
+      "subject_name": "common",
+      "question": "读研期间可以出去实习吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 25,
+      "subject_name": "common",
+      "question": "考研失败还能参加秋招吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 26,
+      "subject_name": "common",
+      "question": "什么是秋招？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 27,
+      "subject_name": "common",
+      "question": "什么是春招？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 28,
+      "subject_name": "common",
+      "question": "暑期实习一般什么时候投递？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 29,
+      "subject_name": "common",
+      "question": "算法工程师需要掌握哪些技能？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 30,
+      "subject_name": "common",
+      "question": "后端开发工程师需要掌握哪些技能？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 31,
+      "subject_name": "common",
+      "question": "前端开发需要学什么？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 32,
+      "subject_name": "common",
+      "question": "测试开发工程师是做什么的？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 33,
+      "subject_name": "common",
+      "question": "运维工程师是做什么的？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 34,
+      "subject_name": "common",
+      "question": "产品经理需要具备什么能力？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 35,
+      "subject_name": "common",
+      "question": "报考公务员需要什么条件？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 36,
+      "subject_name": "common",
+      "question": "什么是选调生？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 37,
+      "subject_name": "common",
+      "question": "国企和互联网企业的工作有什么区别？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 38,
+      "subject_name": "common",
+      "question": "数据分析师需要掌握哪些技能？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 39,
+      "subject_name": "common",
+      "question": "读研究生对找工作帮助大吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库"
+    },
+    {
+      "index": 40,
+      "subject_name": "kaoyan",
+      "question": "考研网上正式报名一般在几月？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 41,
+      "subject_name": "kaoyan",
+      "question": "考研初试一般安排在什么时候？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 42,
+      "subject_name": "kaoyan",
+      "question": "国家线一般在几月公布？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 43,
+      "subject_name": "kaoyan",
+      "question": "管理类联考专业初试总分是多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 44,
+      "subject_name": "kaoyan",
+      "question": "管理类联考包含哪两门科目？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 45,
+      "subject_name": "kaoyan",
+      "question": "考研A区包含哪些省份？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 46,
+      "subject_name": "kaoyan",
+      "question": "B区国家线和A区相比有什么区别？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 47,
+      "subject_name": "kaoyan",
+      "question": "34所自划线院校有什么特点？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 48,
+      "subject_name": "kaoyan",
+      "question": "为什么报考时要看统考招生名额？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 49,
+      "subject_name": "kaoyan",
+      "question": "考研复试的差额比例一般是多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 50,
+      "subject_name": "kaoyan",
+      "question": "复试成绩一般占总成绩的多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 51,
+      "subject_name": "kaoyan",
+      "question": "考研总成绩是怎么计算的？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 52,
+      "subject_name": "kaoyan",
+      "question": "学硕和专硕在读取博士方面有什么区别？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 53,
+      "subject_name": "kaoyan",
+      "question": "什么是少数民族骨干计划？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 54,
+      "subject_name": "kaoyan",
+      "question": "退役大学生士兵专项计划是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 55,
+      "subject_name": "kaoyan",
+      "question": "考研复试一般包含哪些环节？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 56,
+      "subject_name": "kaoyan",
+      "question": "考研综合面试一般由几名导师组成？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 57,
+      "subject_name": "kaoyan",
+      "question": "复试需要准备哪些材料？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 58,
+      "subject_name": "kaoyan",
+      "question": "联系导师的邮件应该怎么写？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 59,
+      "subject_name": "kaoyan",
+      "question": "联系导师有哪些注意事项？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 60,
+      "subject_name": "kaoyan",
+      "question": "考研调剂需要满足哪些基本条件？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 61,
+      "subject_name": "kaoyan",
+      "question": "调剂系统可以同时填报几个志愿？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 62,
+      "subject_name": "kaoyan",
+      "question": "调剂志愿的锁定时间一般多久？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 63,
+      "subject_name": "kaoyan",
+      "question": "什么是待录取通知？确认后有什么影响？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=kaoyan，答案有向量库 kaoyan 源支撑"
+    },
+    {
+      "index": 64,
+      "subject_name": "cs",
+      "question": "408统考包含哪四门课程？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 65,
+      "subject_name": "cs",
+      "question": "408统考中数据结构占多少分？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 66,
+      "subject_name": "cs",
+      "question": "408统考中计算机网络占多少分？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 67,
+      "subject_name": "cs",
+      "question": "计算机科学与技术学硕的专业代码是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 68,
+      "subject_name": "cs",
+      "question": "计算机技术专硕的专业代码是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 69,
+      "subject_name": "cs",
+      "question": "人工智能专硕的专业代码是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 70,
+      "subject_name": "cs",
+      "question": "计算机考研自命题专业课有哪些常见组合？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 71,
+      "subject_name": "cs",
+      "question": "计算机考研自命题专业课的主要劣势是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 72,
+      "subject_name": "cs",
+      "question": "计算机学硕一般考数学几？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 73,
+      "subject_name": "cs",
+      "question": "计算机类专业复试通常包含哪些内容？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 74,
+      "subject_name": "cs",
+      "question": "计算机专硕的编程机试主要考查什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 75,
+      "subject_name": "cs",
+      "question": "计算机类研究生有哪些常见研究方向？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 76,
+      "subject_name": "cs",
+      "question": "选择计算机考研院校时应考虑哪些因素？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 77,
+      "subject_name": "cs",
+      "question": "什么是报录比？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 78,
+      "subject_name": "cs",
+      "question": "计算机考研基础阶段的重点是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 79,
+      "subject_name": "cs",
+      "question": "计算机考研冲刺阶段应该做什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 80,
+      "subject_name": "cs",
+      "question": "青云大学的专业课考什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 81,
+      "subject_name": "cs",
+      "question": "青云大学的复试比例和复试成绩占比是多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 82,
+      "subject_name": "cs",
+      "question": "青云大学的复试是否包含上机测试？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 83,
+      "subject_name": "cs",
+      "question": "东海理工大学的专业课考什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 84,
+      "subject_name": "cs",
+      "question": "东海理工大学的复试比例和复试成绩占比是多少？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 85,
+      "subject_name": "cs",
+      "question": "东海理工大学2025年统考录取多少人？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=cs，答案有向量库 cs 源支撑"
+    },
+    {
+      "index": 86,
+      "subject_name": "employment",
+      "question": "哪些岗位通常要求硕士及以上学历？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 87,
+      "subject_name": "employment",
+      "question": "硕士起薪和本科相比有什么差异？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 88,
+      "subject_name": "employment",
+      "question": "秋招一般是什么时间？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 89,
+      "subject_name": "employment",
+      "question": "春招的岗位数量和秋招相比如何？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 90,
+      "subject_name": "employment",
+      "question": "大型企业的实习转正通道是怎样的？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 91,
+      "subject_name": "employment",
+      "question": "算法工程师岗位对学历和技能的要求是什么？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 92,
+      "subject_name": "employment",
+      "question": "后端开发工程师需要掌握哪些技术？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 93,
+      "subject_name": "employment",
+      "question": "测试开发工程师需要什么技能？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 94,
+      "subject_name": "employment",
+      "question": "数据开发方向需要掌握哪些技术？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 95,
+      "subject_name": "employment",
+      "question": "定向选调生一般面向哪些高校？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 96,
+      "subject_name": "employment",
+      "question": "高校辅导员岗位一般要求什么学历？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 97,
+      "subject_name": "employment",
+      "question": "国企的总部岗位和分行岗位在学历要求上有什么区别？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 98,
+      "subject_name": "employment",
+      "question": "没有实习经历会影响求职吗？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 99,
+      "subject_name": "employment",
+      "question": "非全日制研究生的就业认可度如何？",
+      "corrected_category": "专业咨询",
+      "reason": "subject=employment，答案有向量库 employment 源支撑"
+    },
+    {
+      "index": 100,
+      "subject_name": "common",
+      "question": "你好",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 101,
+      "subject_name": "common",
+      "question": "在吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 102,
+      "subject_name": "common",
+      "question": "你能做什么？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 103,
+      "subject_name": "common",
+      "question": "你是谁？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 104,
+      "subject_name": "common",
+      "question": "谢谢",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 105,
+      "subject_name": "common",
+      "question": "再见",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 106,
+      "subject_name": "common",
+      "question": "今天天气怎么样？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 107,
+      "subject_name": "common",
+      "question": "现在几点了？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 108,
+      "subject_name": "common",
+      "question": "今天星期几？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 109,
+      "subject_name": "common",
+      "question": "你会说英语吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 110,
+      "subject_name": "common",
+      "question": "北京大学计算机专业怎么样？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 111,
+      "subject_name": "common",
+      "question": "推荐几本考研数学辅导书",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 112,
+      "subject_name": "common",
+      "question": "帮我写一篇考研英语作文",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 113,
+      "subject_name": "common",
+      "question": "研究生考试难不难？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 114,
+      "subject_name": "common",
+      "question": "考研值得吗？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 115,
+      "subject_name": "common",
+      "question": "我是计算机专业的，该考研还是就业？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 116,
+      "subject_name": "common",
+      "question": "1加1等于多少？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 117,
+      "subject_name": "common",
+      "question": "讲个笑话",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 118,
+      "subject_name": "common",
+      "question": "随便聊聊",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    },
+    {
+      "index": 119,
+      "subject_name": "common",
+      "question": "系统怎么用？",
+      "corrected_category": "通用知识",
+      "reason": "subject=common，属通用考研/就业常识，无需查知识库（本次新增，只进评测集）"
+    }
+  ]
+}
