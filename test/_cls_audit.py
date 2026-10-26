@@ -21,13 +21,13 @@ if PROJECT_ROOT not in sys.path:
 from base.config import config as conf                       # noqa: E402
 
 # logs/app.log 对子进程只读，必须在 import logger 前改路径
-conf.LOG_FILE = os.path.join(os.environ.get("TEMP", "."), "cls_audit.log")
+conf.LOG_FILE = os.path.join(os.environ.get("TEMP", ".."), "cls_audit.log")
 
 from base.logger import logger                               # noqa: E402
 from rag_qa.core.rag_system import RAGSystem                 # noqa: E402
 
-QUESTIONS = os.path.join("rag_qa", "rag_assesment", "kaoyan_qa_100.json")
-OUT = os.path.join("eval_runs", "cls_audit.json")
+QUESTIONS = os.path.join("../rag_qa", "rag_assesment", "kaoyan_qa_100.json")
+OUT = os.path.join("../eval_runs", "cls_audit.json")
 
 
 def main():

@@ -18,8 +18,8 @@ conf.config.LOG_FILE = os.path.join(tempfile.gettempdir(), "probe_classifier.log
 import torch  # noqa: E402
 from rag_qa.core.query_classifier import QueryClassifier  # noqa: E402
 
-QA_PATH = os.path.join("rag_qa", "rag_assesment", "kaoyan_qa_100.json")
-OVERRIDES = os.path.join("rag_qa", "rag_assesment", "category_overrides.json")
+QA_PATH = os.path.join("../rag_qa", "rag_assesment", "kaoyan_qa_100.json")
+OVERRIDES = os.path.join("../rag_qa", "rag_assesment", "category_overrides.json")
 
 
 def main():
@@ -127,7 +127,7 @@ def main():
     print("[5] 人工目标 vs 纯 BERT 混淆矩阵 + 分歧明细")
     from collections import Counter
     subj = {}
-    faq_path = os.path.join("rag_qa", "data", "kaoyan_faq_100.json")
+    faq_path = os.path.join("../rag_qa", "data", "kaoyan_faq_100.json")
     if os.path.exists(faq_path):
         subj = {d["question"]: d["subject_name"]
                 for d in json.load(open(faq_path, encoding="utf-8"))}

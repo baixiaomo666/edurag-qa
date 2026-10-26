@@ -9,8 +9,8 @@
 import os
 import sys
 
-sys.path.insert(0, r"D:\Study\code6\intergrated_qa_system")
-os.chdir(r"D:\Study\code6\intergrated_qa_system")
+sys.path.insert(0, r"/")
+os.chdir(r"/")
 
 from datasets import Dataset
 from langchain.chat_models import init_chat_model
