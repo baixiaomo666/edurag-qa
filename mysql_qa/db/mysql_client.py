@@ -253,6 +253,28 @@ class MySQLClient:
             logger.error(f"获取会话总数失败: {e}")
             return 0
 
+    def query_score_line(self, school, major, year):
+        """查询指定学校、专业、年份的复试线和招生人数。
+        major 可传专业代码（如 085400）或专业名称（如 电子信息），支持模糊匹配。"""
+        sql = """SELECT school, major, year, score, enroll FROM score_line
+                 WHERE school LIKE %s AND major LIKE %s AND year = %s
+                 ORDER BY major LIMIT 5"""
+        try:
+            with self._db_lock:
+                self.cursor.execute(sql, (f"%{school}%", f"%{major}%", year))
+                rows = self.cursor.fetchall()
+        except pymysql.MySQLError as e:
+            logger.error(f"查询复试线失败: {e}")
+            return None
+
+        if not rows:
+            return None
+
+        return "\n".join(
+            f"{s} {m} {y}年复试线{sc}分，统考招生{en}人"
+            for s, m, y, sc, en in rows
+        )
+
 if __name__ == '__main__':
     # 实例化数据库客户端
     client = MySQLClient()

@@ -362,7 +362,7 @@ if __name__ == '__main__':
     # # 向量化存储
     # vs.add_documents(chunks)
     # 查询
-    docs = vs.hybrid_search_with_reranker(query="⼤语⾔模型 (LLM) 背景")
+    docs = vs.hybrid_search_with_reranker(query="电子科技大学 085400 复试分数线")
     for doc in docs:
         print(doc)
         print("--------------")
