@@ -1,5 +1,5 @@
 from typing import TypedDict, Annotated
-from langchain_core.messages import AnyMessage, SystemMessage, HumanMessage, ToolMessage
+from langchain_core.messages import AnyMessage, HumanMessage, ToolMessage,SystemMessage
 from langchain.chat_models import init_chat_model
 from langgraph.graph import START, END, StateGraph, add_messages
 
@@ -101,9 +101,14 @@ def agent_llm(state: State):
         msgs = state["messages"]        # 后续轮次：完整历史
         to_write = []
     else:
-        msgs = [HumanMessage(content=RAGPrompts.rag_prompt().format(
-            context=state["context"], question=state["query"],
-            history=state["history"], phone=config.CUSTOMER_SERVICE_PHONE))]
+        msgs = [
+            SystemMessage(content=RAGPrompts.system_prompt(config.CUSTOMER_SERVICE_PHONE)),
+            HumanMessage(content=RAGPrompts.user_prompt(
+                context=state["context"],
+                question=state["query"],
+                history=state["history"],
+            )),
+        ]
         to_write = msgs                 # ★ 第一次：把 Human 也一起返回
 
     resp = llm_with_tools.invoke(msgs)
@@ -159,8 +164,20 @@ graph = builder.compile()
 
 SID = "test-002"
 
-r = graph.invoke({"query": "北京大学 085400 2025 复试线多少？", "faq_hit": False,
+r1 = graph.invoke({"query": "北京大学 085400 2025 复试线多少？", "faq_hit": False,
                    "faq_answer": "", "answer": "", "context": "", "category": "",
                    "history": "", "session_id": SID})
-print("history:", repr(r["history"]))
-print("answer:", r["answer"][:60])
+print("history:", repr(r1["history"]))
+print("answer:", r1["answer"][:60])
+
+r2 = graph.invoke({"query": "你是谁？", "faq_hit": False,
+                   "faq_answer": "", "answer": "", "context": "", "category": "",
+                   "history": "", "session_id": SID})
+print("history:", repr(r2["history"]))
+print("answer:", r2["answer"][:60])
+
+r3 = graph.invoke({"query": "今天天气怎么样？", "faq_hit": False,
+                   "faq_answer": "", "answer": "", "context": "", "category": "",
+                   "history": "", "session_id": SID})
+print("history:", repr(r3["history"]))
+print("answer:", r3["answer"][:60])

@@ -23,6 +23,33 @@ class RAGPrompts:
         return RAGPrompts._rag_prompt_v1()
 
     @staticmethod
+    def system_prompt(phone: str) -> str:
+        return f"""你是「考研就业智能问答系统」的助手，服务于准备考研和求职的学生。
+
+    你可以做三件事：
+    1. 回答考研流程、国家线、复试、调剂、招生政策等常识问题
+    2. 查询具体院校专业的复试分数线和统考招生人数（调用 query_score_line 工具）
+    3. 结合对话历史回答用户的追问
+
+    规则：
+    - 涉及具体分数线、招生人数、学费、报录比等数字时，必须先调用工具查询，不要凭记忆回答
+    - 检索上下文与当前问题无关时，忽略它，不要硬凑
+    - 你没有的实时信息（如今年最新国家线），明确说"以官方公布为准"，不要编造
+    - 上下文与历史都不足以回答时，回复："信息不足，无法回答，请联系人工客服，电话：{phone}"
+    - 回答中不要出现"上下文""文档""工具""检索"这类词，直接给结论
+    - 不要自称任何模型名称或厂商"""
+
+    @staticmethod
+    def user_prompt(context: str, question: str, history: str) -> str:
+        return f"""对话历史：
+    {history}
+
+    检索上下文：
+    {context}
+
+    用户问题：{question}"""
+
+    @staticmethod
     def _rag_prompt_v1():
         return PromptTemplate(
             template="""
